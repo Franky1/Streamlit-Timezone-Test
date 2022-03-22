@@ -6,6 +6,12 @@ import streamlit as st
 local_now = datetime.now().astimezone()
 local_time = time.localtime()
 
+st.markdown("""
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Franky1/Streamlit-Timezone-Test) 
+![Python](https://img.shields.io/badge/Python-3.7%20|%203.8%20|%203.9-blue?logo=python) 
+![Issues](https://img.shields.io/github/issues/Franky1/Streamlit-Timezone-Test?logo=github) 
+![Last Commit](https://img.shields.io/github/last-commit/Franky1/Streamlit-Timezone-Test?logo=github)
+""")
 st.title("Timezone Check for Streamlit Cloud")
 st.markdown("Just a quick check of the time and timezone used by the cloud instance")
 st.markdown("""---""")
